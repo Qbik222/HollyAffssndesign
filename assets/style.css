@@ -17,7 +17,6 @@ body {
   max-width: 1300px;
   width: 100vw;
   height: auto;
-  /* border: 1px solid black; */
   padding: 36px;
 }
 header {
@@ -200,7 +199,11 @@ main {
     width: 100%;
   }
 }
-
+@media (max-width: 740px) {
+  .client-img {
+    display: none;
+  }
+}
 .list-text:hover {
   cursor: pointer;
 }
