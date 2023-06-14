@@ -358,6 +358,7 @@ footer {
 @media (max-width: 1100px) {
   footer {
     flex-direction: column;
+    margin-top: 240px;
   }
   .left-collum-footer {
     flex-direction: column;
