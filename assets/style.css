@@ -393,4 +393,7 @@ footer {
   .first-img img {
     margin-right: 0;
   }
+  .contacts-wrapper .right-side {
+    width: 100%;
+  }
 }
