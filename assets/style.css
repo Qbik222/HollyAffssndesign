@@ -297,6 +297,7 @@ main {
     align-items: center;
     justify-content: center;
     height: 90px;
+    max-width: 325px;
   }
   .right-side {
     margin-top: 120px;
