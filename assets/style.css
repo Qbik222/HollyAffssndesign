@@ -390,4 +390,7 @@ footer {
   .right-collum-footer {
     width: 100%;
   }
+  .first-img img {
+    margin-right: 0;
+  }
 }
