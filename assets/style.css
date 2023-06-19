@@ -231,7 +231,7 @@ main {
 .contacts-wrapper > * {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: end;
 }
 .contacts-wrapper .left-side {
   display: flex;
@@ -293,6 +293,9 @@ main {
   color: white;
 }
 @media (max-width: 1100px) {
+  .contacts-wrapper > * {
+    justify-content: center;
+  }
   .contacts h2 {
     font-size: 36px;
     max-width: 300px;
