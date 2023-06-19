@@ -6,12 +6,15 @@
   font-family: NibProLightItalic;
   src: url(./NibPro-LightItalic.ttf);
 }
-
+html {
+  vertical-align: none;
+}
 body {
   background: #db5125;
   display: flex;
   justify-content: center;
   align-items: center;
+  max-width: 100vw;
 }
 .wrapper {
   max-width: 1300px;
@@ -64,7 +67,9 @@ main {
     font-size: 64px;
   }
   .wrapper {
-    width: 85vw;
+    max-width: 100vw;
+    width: 95%;
+    padding: 20px 0;
   }
 }
 .main-logo {
@@ -425,4 +430,7 @@ footer {
   .contacts-wrapper .right-side {
     width: 100%;
   }
+}
+.footer-contacts-text {
+  display: block;
 }
