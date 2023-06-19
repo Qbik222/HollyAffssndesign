@@ -176,9 +176,14 @@ main {
   position: absolute;
   right: 6vw;
   top: -10px;
-  transition: all 1s ease;
+  transition: all 0.01s;
   opacity: 0;
   z-index: -1;
+  max-width: 360px;
+  max-height: 480px;
+  width: 100vw;
+  height: 100vh;
+  border-radius: 20px;
 }
 .client-img:hover {
   cursor: pointer;
