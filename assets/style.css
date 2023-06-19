@@ -55,6 +55,10 @@ main {
   margin-top: 175px;
 }
 @media (max-width: 1100px) {
+  header {
+    position: relative;
+    left: 20px;
+  }
   .rotate-90 {
     position: absolute;
     left: 4vw;
@@ -268,13 +272,6 @@ main {
   transition: all 0.5s ease;
 }
 
-.elipse:hover {
-  border: 2px solid rgb(255, 255, 255);
-}
-.elipse:hover a {
-  color: white;
-}
-
 .right-side-container {
   display: flex;
   align-items: center;
@@ -287,16 +284,24 @@ main {
   height: 100vh;
   transition: all 0.2s ease;
 }
+@media (min-width: 1100px) {
+  .right-side-container:hover {
+    cursor: pointer;
+    border: 2px solid rgb(255, 255, 255);
+    color: white;
+    background: #4ea4f6;
+  }
+  .right-side-container:hover .telegram-link {
+    color: white;
+  }
+  .elipse:hover {
+    border: 2px solid rgb(255, 255, 255);
+  }
+  .elipse:hover a {
+    color: white;
+  }
+}
 
-.right-side-container:hover {
-  cursor: pointer;
-  border: 2px solid rgb(255, 255, 255);
-  color: white;
-  background: #4ea4f6;
-}
-.right-side-container:hover .telegram-link {
-  color: white;
-}
 @media (max-width: 1100px) {
   .contacts-wrapper > * {
     justify-content: center;
