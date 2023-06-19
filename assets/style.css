@@ -252,11 +252,24 @@ main {
   width: 50%;
 }
 .elipse {
-  border: 0.5px solid black;
+  border: 2px solid black;
   border-radius: 60%;
   max-width: 580px;
   height: 174px;
+  transition: all 0.5s ease;
 }
+.elipse a {
+  color: inherit;
+  transition: all 0.5s ease;
+}
+
+.elipse:hover {
+  border: 2px solid rgb(255, 255, 255);
+}
+.elipse:hover a {
+  color: white;
+}
+
 .right-side-container {
   display: flex;
   align-items: center;
@@ -267,12 +280,18 @@ main {
   border-radius: 55px;
   max-height: 75px;
   height: 100vh;
+  transition: all 0.2s ease;
 }
 
 .right-side-container:hover {
   cursor: pointer;
+  border: 2px solid rgb(255, 255, 255);
+  color: white;
+  background: #4ea4f6;
 }
-
+.right-side-container:hover .telegram-link {
+  color: white;
+}
 @media (max-width: 1100px) {
   .contacts h2 {
     font-size: 36px;
@@ -314,6 +333,7 @@ main {
   font-size: 24px;
   font-family: HelveticaNeueCyrMedium;
   text-transform: uppercase;
+  transition: all 1 ease;
 }
 footer {
   display: flex;
