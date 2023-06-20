@@ -9,7 +9,7 @@
 html {
   vertical-align: none;
 }
-body {
+html body {
   background: #db5125;
   display: flex;
   justify-content: center;
@@ -25,6 +25,7 @@ body {
 header {
   height: auto;
 }
+
 .element-text {
   margin-top: 7px;
   display: flex;
@@ -289,7 +290,6 @@ main {
     cursor: pointer;
     border: 2px solid rgb(255, 255, 255);
     color: white;
-    background: #4ea4f6;
   }
   .right-side-container:hover .telegram-link {
     color: white;

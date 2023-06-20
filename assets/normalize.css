@@ -142,3 +142,6 @@ textarea {
   -ms-user-select: none;
   user-select: none;
 }
+html body {
+  background: #000;
+}
